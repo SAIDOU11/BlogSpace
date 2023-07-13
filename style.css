@@ -22,3 +22,34 @@ nav > h3 {
 .blog-list {
   padding: 0.8em;
 }
+
+form {
+  padding: 4em 0.625em 0.625em;
+  display: grid;
+  background-color: lightblue;
+}
+
+input#blog-title,
+textarea#blog-body,
+button {
+  margin: 1em;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+}
+
+input#blog-title,
+textarea#blog-body {
+  outline: none;
+  padding: 0.5em;
+  background-color: #536278;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 900;
+  background-color: #587983;
+  padding: 0.625em;
+}
