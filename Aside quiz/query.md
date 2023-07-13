@@ -9,7 +9,7 @@ What would you expect the endpoints to be for the following tasks:
 2. Get a list of all bike racks available in the physical store right now?
    (Assume a query called "available" that is a boolean true/false)
 
-- /bikeracks?available=true ==> {available: 'true'} (Will be parsed as a string)
+   - /bikeracks?available="true" ==> {available: "true"} (Will be parse as string)
 
 3. Get a list of all "Thule"-brand bike racks that can hold 4 bikes?
    (Assume there are "brand" and "numBikes" queries)

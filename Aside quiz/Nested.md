@@ -8,3 +8,8 @@
 
 - Variable inside the URL that acts as a placeholder for the real value
   (Oftentimes they replace the ID of the resource)
+
+3. What URL might you use to GET the review with an ID of 5 on the bike
+   with the ID of 123?
+
+- /bikes/123/reviews/5
