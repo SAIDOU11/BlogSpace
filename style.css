@@ -3,12 +3,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto Mono", monospace;
+  max-width: 550px;
+  margin: 0 auto;
 }
 
 nav {
   background-color: beige;
   height: 50px;
-  width: 100%;
+  width: 65.3%;
   display: flex;
   justify-content: center;
   align-items: center;
